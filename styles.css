@@ -4,7 +4,7 @@ body{
     top: 0;
     bottom: 0;
     font-family: arial, sans-serif;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     overflow-x: hidden; /* Empêcher le défilement horizontal */
 }
 a{
@@ -182,7 +182,7 @@ footer{
     display: flex;
     align-items: center; 
     margin-top: 100px;
-    background-color: rgba(231, 238, 241, 0.874);
+    background-color: rgba(4, 93, 247, 0.874);
 }
 .anonce-g {
     width: 20%;
@@ -248,14 +248,14 @@ footer{
 
 
 .section1{
-    background-color: rgb(211, 217, 231);
-    padding: 2px;
-    margin: 10px 0;
+    background-color: rgb(1, 77, 254);
+    padding: 0;
+    margin: 5px 30px;
 }
 .section2{
-    background-color: rgb(223, 227, 235);
+    background-color: rgb(1, 77, 254);
     padding: 2px;
-    margin: 10px 0;
+    margin: 5px 30px;
 }
 
 .catalogue{
@@ -468,6 +468,7 @@ h2 {
 .puce{
     display: none;
 }
+
 /* FIN LOGIN */
 
 
@@ -479,16 +480,17 @@ h2 {
         padding: 0;
         left: 0;
         right: 0;
+        font-size: 12px;
 
     }
 
     .corps{
         margin-top: 70px;
-        padding: 0 10px;
+        padding: 0 5px;
     }
   
     header{
-        font-size: 10px;
+        font-size: 12px;
         position: fixed;
         margin: 0;
         left: 0;
@@ -573,17 +575,17 @@ h2 {
 .produit{
     position: relative;
     background-color: white;
-    border: 1px solid gray;
-    margin: 3px;
-    padding: 3px;
-    width: 100px;
+    border: 1px solid rgb(253, 251, 251);
+    margin: 2px;
+    padding: 1px;
+    width: 108px;
 }
 
 .produit img{
     max-width: 100%;
     min-width: 100%;
-    max-height: 100px;
-    min-height: 100px;
+    max-height: 120px;
+    min-height: 120px;
 }
 .nomproduit{
     font-size: 10px;
@@ -594,21 +596,21 @@ h2 {
 
 }
 .etiquette{
-    font-size: 10px;
+    font-size: 1px;
     display: flexbox;
     background-color: y;
     padding: 0 2px;
-    width: 200px;
+    width: 220px;
     line-height: 1.0;
 }
 .btn-achete{
     display: flex;
-    font-size: 7px;
+    font-size: 10px;
     gap: 30px;
     align-items: center;
 }
 #btn-A{
-    width: 20px;
+    width: 25px;
     font-size: 5px;
 }
 
@@ -687,7 +689,7 @@ body{
     font-size: 10px;
     text-align: center;
     justify-content: center;
-    width: 10px;
+   
     padding: 10px;
 }
 header{
@@ -757,7 +759,7 @@ footer{
     border: 1px solid gray;
     margin: 3px;
     padding: 3px;
-    width: 80px;
+    width: 95px;
 }
 
 .produit img{
@@ -768,8 +770,8 @@ footer{
 }
 .nomproduit{
     font-size: 10px;
-    background-color: yellow;
-    color: blue;
+    background-color: white;
+    color: rgb(2, 2, 82);
     position: absolute;
     top: 0;
 

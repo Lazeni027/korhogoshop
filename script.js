@@ -1,9 +1,6 @@
 
 //  partie calucl
 
-
-
-//test
 // Fonction pour calculer et afficher le sous-total
 function affichersubtotal() {
     const prix = parseFloat(document.getElementById('prix').textContent);
@@ -19,7 +16,6 @@ document.addEventListener('DOMContentLoaded', function () {
     document.getElementById('quantity').addEventListener('input', affichersubtotal);
     affichersubtotal();
 });
-
 
 
 // Écouter les changements dans le champ de quantité
