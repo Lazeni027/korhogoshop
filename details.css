@@ -1,0 +1,312 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: arial, sans-serif;
+    background-color: white;
+}
+header a {
+    text-decoration: none;
+    color: white;
+}
+footer a {
+    text-decoration: none;
+    color: white;
+}
+header{
+    position: fixed;
+    margin: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 3;
+  
+}
+#corps{
+    position: relative;
+    z-index: 2;
+}
+
+/* barre de navigation principal big-navbar   */
+
+.big-navbar{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    color: white;
+    font-weight: 500;
+    background-color: #3e0505;
+    
+}
+.panier img {
+    width: 40px;
+    height: 35px;
+}
+.panier{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.big-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    
+}
+
+.sub-nav{
+    display: flex;
+    width: 100%;
+    gap: 200px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 500;
+    background-color: #1f0303;
+}
+
+.sub-links{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Boutons de connexion et inscription */
+.connexion {
+    display: flex;
+    gap: 10px;
+}
+
+.btn-connexion, .btn-inscription {
+    padding: 8px 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-connexion {
+    background-color: #6b0e06;
+    color: #FFFFFF;
+}
+
+.btn-inscription {
+    background-color: #067b2f;
+    color: #FFFFFF;
+}
+
+.btn-connexion:hover, .btn-inscription:hover {
+    opacity: 0.9; /* Effet de survol */
+}
+
+
+/* pied de la page */
+
+footer{
+    font-size: 12px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    align-items: center;
+    justify-content: #2C2C2C;
+    color: #E0E0E0;
+    font-weight: 500;
+    background-color: rgb(30, 30, 66);
+}
+.footer-contenu{
+    display: flex;
+    gap: 100px;
+    background-color: rgb(30, 30, 66);
+    padding: 0 20px;
+}
+
+.footer-section-about{
+    width: 200px;
+    line-height: 1.6;
+}
+
+.footer-bottom{
+    padding-left: 40px;
+    padding: 3px 40px;
+}
+
+
+/* Header et footer terminer */
+
+
+.container {
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    padding: 5px;
+    color: white;
+    background-color: #0e7a1e;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+.product, .cart-item {
+    display: flex;
+   background-color: white;
+    border-bottom: 1px solid #ff0000;
+    padding: 20px 10px;
+   
+    
+}
+#product{
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    background-color: #c95705;
+    color: white;
+    border: none;
+    padding: 5px 5px;
+    margin: 5px 0px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input, form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #218838;
+}
+
+/* test */
+
+#coprs{
+    background-color: #ddd;
+    margin:20px ;
+   
+}
+
+.catalogue{
+    display: flex;
+    justify-content: center;
+}
+
+#titre-categorie{
+    text-align: center;
+    font-weight: 700;
+    color: rgb(39, 3, 3);
+}
+
+.produit{
+    position: relative;
+    background-color: rgb(251, 251, 251);
+    margin: 3px;
+    padding: 3px;
+    width: 250px;
+}
+
+.produit img{
+    height: 240px;
+    max-width: 100%;
+    min-width: 100%;
+}
+.nomproduit{
+    background-color: yellow;
+    color: blue;
+    position: absolute;
+    top: 0;
+
+}
+.etiquette{
+    font-size: 12px;
+    display: flexbox;
+    background-color: y;
+    padding: 0 5px;
+    width: 200px;
+    line-height: 1.0;
+}
+
+.corps{
+    display: flex;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: center;
+    
+}
+/* test */
+
+.prepanier{
+    margin-top: 100px;
+    display: grid;
+    padding: 5px;
+    align-items: center;
+
+    
+}
+.plusdedetail{
+    font-size: 14px;
+    padding: 5pxpx;
+}
+.ajouquantite{
+    background-color: #ddd;
+}
+.ajoupanier{
+    padding: 10px;
+    margin: 5px;
+    background-color: rgb(239, 231, 231);
+}
+.livraison{
+    font-size: 14px;
+}
+#description-div{
+  display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    color: #1f0303;
+    width: 90%;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 1.6;
+    background-color: white;
+}
+#description-form {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    width: 500px;
+    margin: 5px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background-color:rgb(247, 237, 237);
+}

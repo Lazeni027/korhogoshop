@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        
+        <!-- barre de navigation -->
+         
+     <nav class="big-navbar">
+        <div class="logo">
+            <a href="./index.html"><img src="" alt="KORHOGO-SHOP"></a>
+        </div>
+
+        <div>
+            <ul class="big-links">
+                <li><a href="./apropos.html">A propos</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="connexion">
+
+            <div class="connexion" id="connexion-hide">
+                <a href="./login.html" class="btn-connexion">Connexion</a>
+                <a href="./inscription.html" class="btn-inscription">Inscription</a>
+            </div>
+
+            <details class="puce">
+                <summary>🔓</summary>
+                <ul>
+                    <li><a href="./login.html" class="btn-connexion">Connexion</a></li>
+                    <li><a href="./inscription.html" class="btn-inscription">Inscription</a></li>
+                </ul>
+            </details>
+        </div>
+
+        <div class="panier-nav">
+            <a href=""><i class="fa-solid fa-bag-shopping"></i>
+            <p>Total: <span id="total">000</span> FCFA</p> </a>
+        </div>
+     </nav>
+
+     <nav class="sub-nav">
+
+         <ul class="sub-links" id="sub-links-hide">
+            <li><a href="./produitAgro.html">Agro-alimentaire</a></li>
+            <li><a href="./produitArt.html">Artisanat</a></li>
+           </ul>
+
+        <ul class="sub-links">
+            <li>
+                <details class="puce">
+                    <summary>Produits</summary>
+                    <ul>
+                        <li><a href="./produitAgro.html">Agro-alimentaire</a></li>
+                        <li><a href="./produitArt.html">Artisanat</a></li>
+                    </ul>
+                </details>
+            </li>
+        </ul>
+      <span id="recherche-ecran"><input type="text" placeholder="Recherche"> RECHERCHE</span>
+     </nav>
+       
+</header>
+
+<div class="corps">
+    <section class="inscription">
+        <div class="form-container">
+            <h2>Rejoignez-nous !</h2>
+            <p>Créez un compte pour accéder à des fonctionnalités exclusives, suivre vos commandes et profiter d'offres spéciales.</p>
+            <form class="form">
+                <input type="text" placeholder="👤 Nom complet" class="form-input">
+                <input type="email" placeholder="✉️ Adresse e-mail" class="form-input">
+                <input type="password" placeholder="🔒 Mot de passe" class="form-input">
+                <input type="password" placeholder="🔒 Confirmer le mot de passe" class="form-input">
+                <button type="submit" class="form-button">S'inscrire</button>
+            </form>
+            <p>Déjà inscrit ? <a href="./login.html" class="form-link">Se connecter</a></p>
+        </div>
+
+    </section>
+
+</div>
+    <footer class="footercopy">
+        <div class="footer-contenu">
+        
+            <div class="footer-section-contact">
+              <h3>Contact</h3>
+              <p>Email : contact@korhogoshop.ci</p>
+              <p>Téléphone :📞 +225 07 00 00 00</p>
+              <p>Adresse : Korhogo, Côte d'Ivoire</p>
+            </div>
+ 
+            <div>
+                <h3>Commandez sur Whatsapp</h3>
+                <a href="https://wa.me/c/22554101873">Cliquer ici "notre Catalogue"</a>
+            </div>
+ 
+             <!-- WhatsApp -->
+            <div class="footer-section-whatsapp">
+                <h3>Rejoignez-nous sur WhatsApp</h3>
+                <p><a href="https://wa.me/c/22554101873" target="_blank">📜 Voir notre catalogue</a></p>
+                <p><a href="https://wa.me/c/22554101873" target="_blank">📲 Rejoindre notre groupe</a></p>
+            </div>
+ 
+            <div class="footer-section-about">
+                <h3>À propos</h3>
+                <p>Korhogo Shop est votre marketplace dédiée aux produits traditionnels et agricoles du Nord de la Côte d'Ivoire.</p>
+            </div>
+ 
+           
+        </div>
+ 
+        <div class="footer-bottom">
+            <p>&copy; 2025 Korhogo Shop. Tous droits réservés.</p>
+        </div>
+ 
+    </footer>
+</body>
+</html>

@@ -1,0 +1,195 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: arial, sans-serif;
+    background-color: white;
+}
+header a {
+    text-decoration: none;
+    color: white;
+}
+footer a {
+    text-decoration: none;
+    color: white;
+}
+header{
+    position: fixed;
+    margin: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 3;
+  
+}
+#corps{
+    position: relative;
+    z-index: 2;
+}
+
+/* barre de navigation principal big-navbar   */
+
+.big-navbar{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    color: white;
+    font-weight: 500;
+    background-color: #3e0505;
+    
+}
+
+.big-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    
+}
+.panier img {
+    width: 40px;
+    height: 35px;
+}
+.panier{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.sub-nav{
+    display: flex;
+    width: 100%;
+    gap: 200px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 500;
+    background-color: #1f0303;
+}
+
+.sub-links{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Boutons de connexion et inscription */
+.connexion {
+    display: flex;
+    gap: 10px;
+}
+
+.btn-connexion, .btn-inscription {
+    padding: 8px 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-connexion {
+    background-color: #6b0e06;
+    color: #FFFFFF;
+}
+
+.btn-inscription {
+    background-color: #067b2f;
+    color: #FFFFFF;
+}
+
+.btn-connexion:hover, .btn-inscription:hover {
+    opacity: 0.9; /* Effet de survol */
+}
+
+
+/* pied de la page */
+
+footer{
+    font-size: 12px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    align-items: center;
+    justify-content: #2C2C2C;
+    color: #E0E0E0;
+    font-weight: 500;
+    background-color: rgb(30, 30, 66);
+}
+.footer-contenu{
+    display: flex;
+    gap: 100px;
+    background-color: rgb(30, 30, 66);
+    padding: 0 20px;
+}
+
+.footer-section-about{
+    width: 200px;
+    line-height: 1.6;
+}
+
+.footer-bottom{
+    padding-left: 40px;
+    padding: 3px 40px;
+}
+
+
+/* Header et footer terminer */
+
+
+
+/* coprs partie contact */
+
+.contact{
+    display: flex;
+    align-items: center; 
+    margin-top: 150px;
+    padding: 0 40px;
+    background-color: rgb(234, 234, 205);
+}
+.appel{
+    margin: 5px;
+    padding: 10px ;
+    background-color: white;
+}
+
+.contact-whatsapp{
+    padding: 10px;
+    margin: 5px 10px;
+    background-color: #128C7E;
+    color: #FFFFFF;
+    
+}
+.contact-whatsapp a:hover {
+    background-color: #128C7E;
+    transition: background-color 0.3s ease;
+ }
+
+.contact-whatsapp a {
+    background-color: #128C7E; /* Vert foncé au survol */
+    transition: background-color 0.3s ease;
+    background-color: #25D366; 
+    color: #FFFFFF; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    text-decoration: none;
+}
+.rejoin-whatsapp {
+   width: 700px;
+   background-color:#25D366 ;
+   padding: 40px 10px;
+   margin: 5px;
+}
+
+.rejoin-whatsapp a{
+    
+    color: white
+}
+
+.propos{
+    padding: 50px 100px;
+    line-height: 1.6;
+}
+
+

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panier</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="panier.css">
+</head>
+<body>
+    <header>
+        
+        <!-- barre de navigation -->
+         
+     <nav class="big-navbar">
+        <div class="logo">
+            <a href="./index.html"><img src="" alt="KORHOGO-SHOP"></a>
+        </div>
+
+        <div>
+            <ul class="big-links">
+                <li><a href="./apropos.html">A propos</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="connexion">
+
+            <div class="connexion" id="connexion-hide">
+                <a href="./login.html" class="btn-connexion">Connexion</a>
+                <a href="./inscription.html" class="btn-inscription">Inscription</a>
+            </div>
+
+            <details class="puce">
+                <summary>🔓</summary>
+                <ul>
+                    <li><a href="./login.html" class="btn-connexion">Connexion</a></li>
+                    <li><a href="./inscription.html" class="btn-inscription">Inscription</a></li>
+                </ul>
+            </details>
+        </div>
+
+        <div class="panier-nav">
+            <a href=""><i class="fa-solid fa-bag-shopping"></i>
+            <p>Total: <span id="total">000</span> FCFA</p> </a>
+        </div>
+     </nav>
+
+     <nav class="sub-nav">
+
+         <ul class="sub-links" id="sub-links-hide">
+            <li><a href="./produitAgro.html">Agro-alimentaire</a></li>
+            <li><a href="./produitArt.html">Artisanat</a></li>
+           </ul>
+
+        <ul class="sub-links">
+            <li>
+                <details class="puce">
+                    <summary>Produits</summary>
+                    <ul>
+                        <li><a href="./produitAgro.html">Agro-alimentaire</a></li>
+                        <li><a href="./produitArt.html">Artisanat</a></li>
+                    </ul>
+                </details>
+            </li>
+        </ul>
+      <span id="recherche-ecran"><input type="text" placeholder="Recherche"> RECHERCHE</span>
+     </nav>
+       
+</header>
+
+ <div class="corps">
+            <div class="panier-contenaire">
+                <h1>Votre Panier</h1>
+                <ul id="liste-panier"></ul>
+                <div class="id"></div>
+                <div class="nom"></div>
+                <div class="prix"></div>
+
+
+                <p>Total: <span id="total-panier">0</span> FCFA</p>
+                <button onclick="window.location.href='index.html'">Continuer vos achats</button>
+            </div>
+</div>
+
+<footer class="footercopy">
+    <div class="footer-contenu">
+    
+        <div class="footer-section-contact">
+          <h3>Contact</h3>
+          <p>Email : contact@korhogoshop.ci</p>
+          <p>Téléphone :📞 +225 07 00 00 00</p>
+          <p>Adresse : Korhogo, Côte d'Ivoire</p>
+        </div>
+
+        <div>
+            <h3>Commandez sur Whatsapp</h3>
+            <a href="https://wa.me/c/22554101873">Cliquer ici "notre Catalogue"</a>
+        </div>
+
+         <!-- WhatsApp -->
+        <div class="footer-section-whatsapp">
+            <h3>Rejoignez-nous sur WhatsApp</h3>
+            <p><a href="https://wa.me/c/22554101873" target="_blank">📜 Voir notre catalogue</a></p>
+            <p><a href="https://wa.me/c/22554101873" target="_blank">📲 Rejoindre notre groupe</a></p>
+        </div>
+
+        <div class="footer-section-about">
+            <h3>À propos</h3>
+            <p>Korhogo Shop est votre marketplace dédiée aux produits traditionnels et agricoles du Nord de la Côte d'Ivoire.</p>
+        </div>
+
+       
+    </div>
+
+    <div class="footer-bottom">
+        <p>&copy; 2025 Korhogo Shop. Tous droits réservés.</p>
+    </div>
+
+</footer>
+
+    <script src="script.js"></script>
+    <script src="panier.js"></script>
+    <script src="test.js"></script>
+</body>
+
+</html>
