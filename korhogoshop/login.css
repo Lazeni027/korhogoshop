@@ -1,0 +1,97 @@
+.corps{
+    background-color: white;
+    
+ }
+
+/* Boutons de connexion et inscription */
+
+
+.btn-connexion, .btn-inscription {
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-connexion {
+    background-color: #25D366; /* Vert WhatsApp */
+    color: #FFFFFF;
+}
+
+.btn-inscription {
+    background-color: #CC5500; /* Orange brûlé */
+    color: #FFFFFF;
+}
+
+.btn-connexion:hover, .btn-inscription:hover {
+    opacity: 0.9; /* Effet de survol */
+}
+
+
+/* Conteneur du formulaire */
+.form-container {
+    background-color: #e5ecf0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Titres */
+h2 {
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+/* Paragraphes */
+.form-container {
+    color: #666666;
+    font-size: 14px;
+    padding-right: 40px;
+}
+
+/* Champs de formulaire */
+.form-input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Boutons */
+.form-button {
+    background-color: #25D366;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.form-button:hover {
+    background-color: #128C7E;
+}
+
+/* Liens */
+.form-link {
+    color: #25D366;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.form-link:hover {
+    text-decoration: underline;
+}
+
+.inscription , .connexion-input{
+    display: flex;
+    justify-content: center;
+   
+}
