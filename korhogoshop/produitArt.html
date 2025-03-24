@@ -11,60 +11,64 @@
     <header>
                 
         <!-- barre de navigation -->
-         
      <nav class="big-navbar">
         <div class="logo">
             <a href="./index.html"><img src="" alt="KORHOGO-SHOP"></a>
         </div>
-
-        <div>
+        
+        <div class="menuon">
             <ul class="big-links">
                 <li><a href="./apropos.html">A propos</a></li>
                 <li><a href="./contact.html">Contact</a></li>
             </ul>
         </div>
-        <div class="connexion">
 
-            <div class="connexion" id="connexion-hide">
-                <a href="./login.html" class="btn-connexion">Connexion</a>
-                <a href="./inscription.html" class="btn-inscription">Inscription</a>
-            </div>
-
-            <details class="puce">
-                <summary>🔓</summary>
-                <ul>
-                    <li><a href="./login.html" class="btn-connexion">Connexion</a></li>
-                    <li><a href="./inscription.html" class="btn-inscription">Inscription</a></li>
-                </ul>
-            </details>
+        <div class="puce">
+            <div class="clic" onclick="toggleclic()"><i class="fas fa-bars"></i></div>
+            <ul id="puceone">
+                <li><a href="./apropos.html" class="btn-test">A propos</a></li>
+                <li><a href="./contact.html" class="btn-test">Contact</a></li>
+            </ul>
+        </div>
+           
+        <div class="connexion" id="connexion-hide">
+            <a href="./login.html" class="btn-connexion">Connexion</a>
+            <a href="./inscription.html" class="btn-inscription">Inscription</a>
         </div>
 
-        <div class="panier-nav">
-            <a href=""><i class="fa-solid fa-bag-shopping"></i>
-            <p>Total: <span id="total">000</span> FCFA</p> </a>
+        <div class="puce2">
+            <div class="clic2" onclick="toggleclic2()"><i class="fas fa-user-plus"></i></div>
+            <ul id="puceone2">
+                <li><a href="./login.html">Connexion</a></li>
+                <li><a href="./inscription.html">Inscription</a></li>
+        </div>
+
+
+        <div class="panier">
+            <a href="panier.html"><i class="fa-solid fa-bag-shopping"></i>Panier</a>
         </div>
      </nav>
 
      <nav class="sub-nav">
 
-         <ul class="sub-links" id="sub-links-hide">
-            <li><a href="./produitAgro.html">Agro-alimentaire</a></li>
-            <li><a href="./produitArt.html">Artisanat</a></li>
-           </ul>
+        <ul class="sub-links" id="sub-links-hide">
+           <li><a href="./produitAgro.html">Agro-alimentaire</a></li>
+           <li><a href="./produitArt.html">Artisanat</a></li>
+          </ul>
 
-        <ul class="sub-links">
-            <li>
-                <details class="puce">
-                    <summary>Produits</summary>
-                    <ul>
-                        <li><a href="./produitAgro.html">Agro-alimentaire</a></li>
-                        <li><a href="./produitArt.html">Artisanat</a></li>
-                    </ul>
-                </details>
-            </li>
-        </ul>
-      <span id="recherche-ecran"><input type="text" placeholder="Recherche"> RECHERCHE</span>
-     </nav>
+       <ul class="sub-links">
+           <li>
+               <details class="puce">
+                   <summary>Produits</summary>
+                   <ul>
+                       <li><a href="./produitAgro.html">Agro-alimentaire</a></li>
+                       <li><a href="./produitArt.html">Artisanat</a></li>
+                   </ul>
+               </details>
+           </li>
+       </ul>
+     <span id="recherche-ecran"><input type="text" placeholder="Recherche"> RECHERCHE</span>
+    </nav>
        
 </header>
 
@@ -291,6 +295,6 @@
         
            </footer>
         </div>
-    
+    <script src="script.js"></script>
 </body>
 </html>

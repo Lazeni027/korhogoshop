@@ -10,61 +10,66 @@
 </head>
 <body>
     <header>
-      <!-- barre de navigation -->
-         
+                
+        <!-- barre de navigation -->
      <nav class="big-navbar">
         <div class="logo">
             <a href="./index.html"><img src="" alt="KORHOGO-SHOP"></a>
         </div>
-
-        <div>
+        
+        <div class="menuon">
             <ul class="big-links">
                 <li><a href="./apropos.html">A propos</a></li>
                 <li><a href="./contact.html">Contact</a></li>
             </ul>
         </div>
-        <div class="connexion">
 
-            <div class="connexion" id="connexion-hide">
-                <a href="./login.html" class="btn-connexion">Connexion</a>
-                <a href="./inscription.html" class="btn-inscription">Inscription</a>
-            </div>
-
-            <details class="puce">
-                <summary>🔓</summary>
-                <ul>
-                    <li><a href="./login.html" class="btn-connexion">Connexion</a></li>
-                    <li><a href="./inscription.html" class="btn-inscription">Inscription</a></li>
-                </ul>
-            </details>
+        <div class="puce">
+            <div class="clic" onclick="toggleclic()"><i class="fas fa-bars"></i></div>
+            <ul id="puceone">
+                <li><a href="./apropos.html" class="btn-test">A propos</a></li>
+                <li><a href="./contact.html" class="btn-test">Contact</a></li>
+            </ul>
+        </div>
+           
+        <div class="connexion" id="connexion-hide">
+            <a href="./login.html" class="btn-connexion">Connexion</a>
+            <a href="./inscription.html" class="btn-inscription">Inscription</a>
         </div>
 
-        <div class="panier-nav">
-            <a href=""><i class="fa-solid fa-bag-shopping"></i>
-            <p>Total: <span id="total">000</span> FCFA</p> </a>
+        <div class="puce2">
+            <div class="clic2" onclick="toggleclic2()"><i class="fas fa-user-plus"></i></div>
+            <ul id="puceone2">
+                <li><a href="./login.html">Connexion</a></li>
+                <li><a href="./inscription.html">Inscription</a></li>
+        </div>
+
+
+        <div class="panier">
+            <a href="panier.html"><i class="fa-solid fa-bag-shopping"></i>Panier</a>
         </div>
      </nav>
 
      <nav class="sub-nav">
 
-         <ul class="sub-links" id="sub-links-hide">
-            <li><a href="./produitAgro.html">Agro-alimentaire</a></li>
-            <li><a href="./produitArt.html">Artisanat</a></li>
-        </ul>
+        <ul class="sub-links" id="sub-links-hide">
+           <li><a href="./produitAgro.html">Agro-alimentaire</a></li>
+           <li><a href="./produitArt.html">Artisanat</a></li>
+          </ul>
 
-        <ul class="sub-links">
-            <li>
-                <details class="puce">
-                    <summary>Produits</summary>
-                    <ul>
-                        <li><a href="./produitAgro.html">Agro-alimentaire</a></li>
-                        <li><a href="./produitArt.html">Artisanat</a></li>
-                    </ul>
-                </details>
-            </li>
-        </ul>
-      <span id="recherche-ecran"><input type="text" placeholder="Recherche"> RECHERCHE</span>
-     </nav>
+       <ul class="sub-links">
+           <li>
+               <details class="puce">
+                   <summary>Produits</summary>
+                   <ul>
+                       <li><a href="./produitAgro.html">Agro-alimentaire</a></li>
+                       <li><a href="./produitArt.html">Artisanat</a></li>
+                   </ul>
+               </details>
+           </li>
+       </ul>
+     <span id="recherche-ecran"><input type="text" placeholder="Recherche"> RECHERCHE</span>
+    </nav>
        
 </header>
 
@@ -79,16 +84,6 @@
     <p>Adresse : Korhogo, Côte d'Ivoire</p>
   </div>
 
-    <div class="contact-whatsapp">
-        <h3>Contactez-nous directement sur WhatsApp !</h3>
-        <p>Pour une réponse rapide, vous pouvez contacter notre assistant clientèle ou notre administrateur via WhatsApp. 
-        Nous sommes disponibles pour répondre à vos questions sur les produits, les commandes ou toute autre demande.</p>
-        <h4>Assistant clientèle :</h4>
-         <a href="https://wa.me/2250712345678">
-            📞 Contactez-nous sur WhatsApp
-         </a>
-        <p>🕒 Disponibilité : Du lundi au vendredi, de 8h à 18h.</p>
-    </div>
 
     <article class="rejoin-whatsapp">
         <div>
@@ -97,16 +92,19 @@
             <p><a href="https://wa.me/c/22554101873" >📲 Rejoindre notre groupe</a></p>
         </div>
     </article>
+
+<div class="contact-whatsapp">
+    <h3>Contactez-nous directement sur WhatsApp !</h3>
+    <p>Pour une réponse rapide, vous pouvez contacter notre assistant clientèle ou notre administrateur via WhatsApp. 
+    Nous sommes disponibles pour répondre à vos questions sur les produits, les commandes ou toute autre demande.</p>
+    <h4>Assistant clientèle :</h4>
+     <a href="https://wa.me/2250712345678">
+        📞 Contactez-nous sur WhatsApp
+     </a>
+    <p>🕒 Disponibilité : Du lundi au vendredi, de 8h à 18h.</p>
+</div>
+
 </section>
-
-<section class="propos">
-    <h2>Qui sommes-nous ?</h2>
-    <h3>Bienvenue chez Korhogo Shop !</h3>
-    <p>Nous sommes une boutique en ligne dédiée à la promotion et à la vente des produits locaux du nord de la Côte d'Ivoire. Notre mission est de mettre en valeur le riche patrimoine culturel et artisanal de notre région, en vous proposant des produits authentiques, de qualité et fabriqués avec passion.
-
-        Que ce soit pour découvrir nos produits agroalimentaires, nos créations artisanales ou pour en savoir plus sur notre engagement envers les communautés locales, nous sommes ravis de partager cette aventure avec vous. Chez Korhogo Shop, chaque achat contribue à soutenir les artisans et producteurs locaux.</p>
-</section>
-
 </div>
 
 <footer class="footercopy">
@@ -144,6 +142,6 @@
     </div>
 
 </footer>
-
+<script src="script.js"></script>
 </body>
 </html>

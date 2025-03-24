@@ -1,141 +1,3 @@
-body{
-    margin: 0;
-    padding: 0;
-    font-family: arial, sans-serif;
-    background-color: white;
-}
-header a {
-    text-decoration: none;
-    color: white;
-}
-footer a {
-    text-decoration: none;
-    color: white;
-}
-header{
-    position: fixed;
-    margin: 0;
-    left: 0;
-    right: 0;
-    top: 0;
-    z-index: 3;
-  
-}
-#corps{
-    position: relative;
-    z-index: 2;
-}
-
-/* barre de navigation principal big-navbar   */
-
-.big-navbar{
-    
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 10px;
-    color: white;
-    font-weight: 500;
-    background-color: #3e0505;
-    
-}
-.panier img {
-    width: 40px;
-    height: 35px;
-}
-.panier{
-    display: flex;
-    align-items: center;
-    gap: 5px;
-}
-
-.big-links {
-    display: flex;
-    list-style: none;
-    gap: 20px;
-    
-}
-
-.sub-nav{
-    display: flex;
-    width: 100%;
-    gap: 200px;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    font-weight: 500;
-    background-color: #1f0303;
-}
-
-.sub-links{
-    display: flex;
-    list-style: none;
-    text-decoration: none;
-    align-items: center;
-    gap: 20px;
-}
-
-/* Boutons de connexion et inscription */
-.connexion {
-    display: flex;
-    gap: 10px;
-}
-
-.btn-connexion, .btn-inscription {
-    padding: 8px 16px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.btn-connexion {
-    background-color: #6b0e06;
-    color: #FFFFFF;
-}
-
-.btn-inscription {
-    background-color: #067b2f;
-    color: #FFFFFF;
-}
-
-.btn-connexion:hover, .btn-inscription:hover {
-    opacity: 0.9; /* Effet de survol */
-}
-
-
-/* pied de la page */
-
-footer{
-    font-size: 12px;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 1;
-    align-items: center;
-    justify-content: #2C2C2C;
-    color: #E0E0E0;
-    font-weight: 500;
-    background-color: rgb(30, 30, 66);
-}
-.footer-contenu{
-    display: flex;
-    gap: 100px;
-    background-color: rgb(30, 30, 66);
-    padding: 0 20px;
-}
-
-.footer-section-about{
-    width: 200px;
-    line-height: 1.6;
-}
-
-.footer-bottom{
-    padding-left: 40px;
-    padding: 3px 40px;
-}
-
-
-/* Header et footer terminer */
 
 
 .container {
@@ -209,8 +71,12 @@ form button:hover {
 /* test */
 
 #coprs{
-    background-color: #ddd;
+    left: 0;
+    right: 0;
     margin:20px ;
+    max-width: 97%;
+    min-width: 90%;
+    font-size: 100%;
    
 }
 
@@ -254,26 +120,45 @@ form button:hover {
     line-height: 1.0;
 }
 
-.corps{
-    display: flex;
-    padding: 20px 40px;
-    display: flex;
+
+#coprsdetails{
+    margin: 0;
+    padding: 40px;
+    left: 0;
+    right: 0;
+    display: grid;
     justify-content: center;
-    
 }
-/* test */
+.description{
+    width: 90%;
+    margin: 0 20px;
+    padding: auto;
+}
 
 .prepanier{
+    margin: auto;
     margin-top: 100px;
     display: grid;
+    justify-content: center;
     padding: 5px;
     align-items: center;
 
     
 }
 .plusdedetail{
-    font-size: 14px;
-    padding: 5pxpx;
+    padding: 10px 0;
+    
+}
+.plusdedetail p, .plusdedetail a{
+    width: 80%;
+    text-align: justify;
+    padding-left: 50px;
+}
+.plusdedetail li{
+    margin: auto;
+    padding-left: 20px;
+    list-style: none;
+    text-align: left;
 }
 .ajouquantite{
     background-color: #ddd;
@@ -290,14 +175,17 @@ form button:hover {
   display: flex;
     justify-content: center;
     align-content: center;
-    text-align: center;
-    color: #1f0303;
-    width: 90%;
+    text-align: justify;
+    color: black;
+    width: 80%;
     margin: auto;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
+    font-size: 100%;
     line-height: 1.6;
     background-color: white;
+}
+#description-div p{
+    width: 90%;
 }
 #description-form {
     text-align: center;
@@ -309,4 +197,8 @@ form button:hover {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     background-color:rgb(247, 237, 237);
+}
+
+strong{
+    padding-left: 20px;
 }
