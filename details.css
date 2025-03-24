@@ -1,5 +1,16 @@
+/* Styles de base */
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
-
+/* Conteneur principal */
 .container {
     text-align: center;
     width: 60%;
@@ -8,6 +19,7 @@
     color: white;
     background-color: #0e7a1e;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
 }
 
 h1 {
@@ -15,17 +27,19 @@ h1 {
     color: white;
 }
 
+/* Styles des produits */
 .product, .cart-item {
     display: flex;
-   background-color: white;
+    background-color: white;
     border-bottom: 1px solid #ff0000;
     padding: 20px 10px;
-   
-    
+    box-sizing: border-box;
 }
-#product{
+
+#product {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 button {
@@ -42,6 +56,7 @@ button:hover {
     background-color: #218838;
 }
 
+/* Styles des formulaires */
 form label {
     display: block;
     margin: 10px 0 5px;
@@ -53,6 +68,7 @@ form input, form select {
     margin-bottom: 10px;
     border: 1px solid #ddd;
     border-radius: 4px;
+    box-sizing: border-box;
 }
 
 form button {
@@ -68,137 +84,191 @@ form button:hover {
     background-color: #218838;
 }
 
-/* test */
-
-#coprs{
-    left: 0;
-    right: 0;
-    margin:20px ;
-    max-width: 97%;
-    min-width: 90%;
-    font-size: 100%;
-   
+/* Structure principale */
+#coprs {
+    width: 100%;
+    max-width: 100%;
+    margin: 20px 0;
+    padding: 0;
+    flex: 1;
+    box-sizing: border-box;
 }
 
-.catalogue{
+.catalogue {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
-#titre-categorie{
+#titre-categorie {
     text-align: center;
     font-weight: 700;
     color: rgb(39, 3, 3);
+    width: 100%;
 }
 
-.produit{
+/* Styles des produits */
+.produit {
     position: relative;
     background-color: rgb(251, 251, 251);
     margin: 3px;
     padding: 3px;
     width: 250px;
+    box-sizing: border-box;
 }
 
-.produit img{
+.produit img {
     height: 240px;
-    max-width: 100%;
-    min-width: 100%;
+    width: 100%;
+    object-fit: cover;
 }
-.nomproduit{
+
+.nomproduit {
     background-color: yellow;
     color: blue;
     position: absolute;
     top: 0;
-
 }
-.etiquette{
+
+.etiquette {
     font-size: 12px;
-    display: flexbox;
-    background-color: y;
+    display: flex;
     padding: 0 5px;
-    width: 200px;
+    width: 100%;
     line-height: 1.0;
+    box-sizing: border-box;
 }
 
-
-#coprsdetails{
+/* Détails du produit */
+#coprsdetails {
+    width: 100%;
     margin: 0;
-    padding: 40px;
-    left: 0;
-    right: 0;
+    padding: 40px 15px;
     display: grid;
     justify-content: center;
+    box-sizing: border-box;
 }
-.description{
+
+.description {
     width: 90%;
-    margin: 0 20px;
-    padding: auto;
-}
-
-.prepanier{
-    margin: auto;
-    margin-top: 100px;
-    display: grid;
-    justify-content: center;
-    padding: 5px;
-    align-items: center;
-
-    
-}
-.plusdedetail{
-    padding: 10px 0;
-    
-}
-.plusdedetail p, .plusdedetail a{
-    width: 80%;
-    text-align: justify;
-    padding-left: 50px;
-}
-.plusdedetail li{
-    margin: auto;
-    padding-left: 20px;
-    list-style: none;
-    text-align: left;
-}
-.ajouquantite{
-    background-color: #ddd;
-}
-.ajoupanier{
+    margin: 0 auto;
     padding: 10px;
-    margin: 5px;
+    box-sizing: border-box;
+}
+
+.prepanier {
+    width: 100%;
+    max-width: 1200px;
+    margin: 100px auto 0;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.plusdedetail {
+    padding: 10px 15px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.plusdedetail p, .plusdedetail a {
+    width: 90%;
+    text-align: justify;
+    margin: 0 auto;
+    padding: 5px 0;
+}
+
+.plusdedetail ul {
+    padding-left: 20px;
+    margin: 10px 0;
+}
+
+.plusdedetail li {
+    margin: 5px 0;
+    list-style-position: inside;
+}
+
+.ajouquantite {
+    background-color: #ddd;
+    padding: 15px;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+
+.ajoupanier {
+    padding: 10px;
+    margin: 5px 0;
     background-color: rgb(239, 231, 231);
+    box-sizing: border-box;
 }
-.livraison{
+
+.livraison {
     font-size: 14px;
+    padding: 15px;
+    box-sizing: border-box;
 }
-#description-div{
-  display: flex;
+
+/* Section description */
+#description-div {
+    display: flex;
     justify-content: center;
     align-content: center;
     text-align: justify;
     color: black;
-    width: 80%;
-    margin: auto;
-    font-family: Arial, Helvetica, sans-serif;
+    width: 90%;
+    margin: 0 auto;
     font-size: 100%;
     line-height: 1.6;
     background-color: white;
+    padding: 15px;
+    box-sizing: border-box;
 }
-#description-div p{
-    width: 90%;
+
+#description-div p {
+    width: 100%;
+    margin: 0;
 }
+
 #description-form {
     text-align: center;
     color: black;
     font-weight: bold;
-    width: 500px;
-    margin: 5px;
-    padding: 5px;
-    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    max-width: 500px;
+    margin: 5px auto;
+    padding: 15px;
     font-size: 14px;
-    background-color:rgb(247, 237, 237);
+    background-color: rgb(247, 237, 237);
+    box-sizing: border-box;
 }
 
-strong{
-    padding-left: 20px;
+strong {
+    padding-left: 5px;
 }
+
+/* Footer */
+footer.footercopy {
+    width: 100%;
+    margin: 0;
+    padding: 20px 0;
+    box-sizing: border-box;
+}
+
+.footer-contenu {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+

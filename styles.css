@@ -160,12 +160,17 @@ footer{
     font-weight: 500;
     background-color: #1E3A5F;
 }
-.footer-contenu{
-    background-color: #1E3A5F;
+.footer-contenu {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
     display: flex;
-   gap: 50px;
-    padding: 0 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-sizing: border-box;
 }
+
 
 .footer-section-about{
     display: none;
