@@ -30,7 +30,7 @@
 
 /* Conteneur du formulaire */
 .form-container {
-    background-color: #e5ecf0;
+    background-color: #b3c5d0;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -94,4 +94,11 @@ h2 {
     display: flex;
     justify-content: center;
    
+}
+
+.logintop{
+    margin-top: 50px;
+}
+.loginbot{
+    margin-top: 100px;
 }

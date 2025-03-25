@@ -7,7 +7,6 @@ body {
     flex-direction: column;
     width: 100%;
     overflow-x: hidden;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Conteneur principal */
@@ -18,8 +17,6 @@ body {
     padding: 5px;
     color: white;
     background-color: #0e7a1e;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    box-sizing: border-box;
 }
 
 h1 {
@@ -33,7 +30,6 @@ h1 {
     background-color: white;
     border-bottom: 1px solid #ff0000;
     padding: 20px 10px;
-    box-sizing: border-box;
 }
 
 #product {
@@ -68,7 +64,6 @@ form input, form select {
     margin-bottom: 10px;
     border: 1px solid #ddd;
     border-radius: 4px;
-    box-sizing: border-box;
 }
 
 form button {
@@ -91,7 +86,6 @@ form button:hover {
     margin: 20px 0;
     padding: 0;
     flex: 1;
-    box-sizing: border-box;
 }
 
 .catalogue {
@@ -114,7 +108,6 @@ form button:hover {
     margin: 3px;
     padding: 3px;
     width: 250px;
-    box-sizing: border-box;
 }
 
 .produit img {
@@ -124,8 +117,6 @@ form button:hover {
 }
 
 .nomproduit {
-    background-color: yellow;
-    color: blue;
     position: absolute;
     top: 0;
 }
@@ -136,38 +127,38 @@ form button:hover {
     padding: 0 5px;
     width: 100%;
     line-height: 1.0;
-    box-sizing: border-box;
+
 }
 
 /* Détails du produit */
 #coprsdetails {
     width: 100%;
     margin: 0;
-    padding: 40px 15px;
+    padding: 30px 5px;
     display: grid;
     justify-content: center;
-    box-sizing: border-box;
+
 }
 
 .description {
     width: 90%;
     margin: 0 auto;
-    padding: 10px;
-    box-sizing: border-box;
+    padding: 5px;
+  
 }
 
 .prepanier {
     width: 100%;
     max-width: 1200px;
-    margin: 100px auto 0;
+    margin: 50px auto 0;
     padding: 5px;
-    box-sizing: border-box;
+  
 }
 
 .plusdedetail {
     padding: 10px 15px;
     width: 100%;
-    box-sizing: border-box;
+    
 }
 
 .plusdedetail p, .plusdedetail a {
@@ -178,12 +169,13 @@ form button:hover {
 }
 
 .plusdedetail ul {
-    padding-left: 20px;
-    margin: 10px 0;
+    padding-left: 5px;
+    margin: 5px 0;
 }
 
 .plusdedetail li {
-    margin: 5px 0;
+    margin:0;
+    text-align: left;
     list-style-position: inside;
 }
 
@@ -203,8 +195,8 @@ form button:hover {
 
 .livraison {
     font-size: 14px;
-    padding: 15px;
-    box-sizing: border-box;
+    padding: 5px 0;
+    
 }
 
 /* Section description */
@@ -219,7 +211,7 @@ form button:hover {
     font-size: 100%;
     line-height: 1.6;
     background-color: white;
-    padding: 15px;
+    padding: 5px;
     box-sizing: border-box;
 }
 
@@ -231,14 +223,12 @@ form button:hover {
 #description-form {
     text-align: center;
     color: black;
-    font-weight: bold;
     width: 100%;
     max-width: 500px;
     margin: 5px auto;
-    padding: 15px;
+    padding: 5px;
     font-size: 14px;
     background-color: rgb(247, 237, 237);
-    box-sizing: border-box;
 }
 
 strong {
